@@ -4,7 +4,7 @@
 - **Maestría en Ciencia de Datos**
 - **Asignatura:** Fundamentos de Inteligencia Artificial
 - **Autor:** Héctor Alexander Román Potosí
-**Fecha:** octubre de 2026
+- **Fecha:** octubre de 2026
 
 ## 1. Descripción
 
@@ -122,8 +122,7 @@ Proyecto 1/
 ├── src/
 │   ├── 01_auditoria.py
 │   ├── 02_visualizaciones.py
-│   ├── 03_inferencia.py
-│   └── 04_crear_notebook.py
+│   └── 03_inferencia.py
 ├── figures/
 │   └── 01_...png a 07_...png
 ├── outputs/
@@ -144,6 +143,7 @@ Ejecutar desde la raíz del proyecto:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m ipykernel install --user --name fundamentos-titanic-2026 --display-name "Python (Fundamentos Titanic)"
 ```
 
 Ejecutar los análisis y generar gráficos y tablas:
